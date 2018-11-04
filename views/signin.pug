@@ -1,0 +1,18 @@
+html
+	header
+		title Đăng nhập
+	body
+		a(href="./") Trang chủ
+		h1 Chào mừng đến trang đăng nhập
+		form(action="/signin" method="POST")
+			div
+				label(for = "email") Your Email:
+				input(placeholder="your email" type="email" name="email")
+			br
+			div
+				label(for="password") Password:
+				input(placeholder="password" type="password" name="password")
+			br
+			button(type="submit") Đăng nhập
+		p Chưa có tài khoản ?
+		a(href="./register") Đăng ký
